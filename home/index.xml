@@ -2,95 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on metakits.cc</title>
-    <link>/home/</link>
+    <link>https://picxenk.github.io/home/</link>
     <description>Recent content in Homes on metakits.cc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://picxenk.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://picxenk.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://picxenk.github.io/home/about/</guid>
       <description>Biography 생명과학을 전공했으나 앨런 케이(Alan Kay)를 만나고 엔드유저(End-User)를 위한 컴퓨팅 환경에 대해 고민하기 시작했다. 컴퓨터 교육학과 석사를 마치고 파이니(PINY, Powerful Idea jourNeY)를 설립하여 “파이니 캠프”, “셋이서 하는 미디어아트2 (@아트센터나비/최승준, 김경수, PINY)”, “서울시 U러닝 컴퓨터 클럽하우스” 등의 엔드유저를 위한 디지털 리터러시와 커뮤니케이션에 대한 교육 사업과 연구를 병행하였다(2008-2010). 컴퓨팅 매체를 남녀노소 누구나 이해하고 창작에 적용할 수 있도록 돕는 워크숍과 교육 및 컨설팅을 진행하고 있고, 최근에는 디지털/소프트웨어 매체 외에도 아날로그/하드웨어/공예(Craft)가 가미된 “빛공 LightBall”, “스티키블록 StickyBlocks”, “화.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://picxenk.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://picxenk.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://picxenk.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://picxenk.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>https://picxenk.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://picxenk.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <title>Writings</title>
+      <link>https://picxenk.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://picxenk.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://picxenk.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://picxenk.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Custom Section</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
-    </item>
-    
-    <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://picxenk.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0900</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://picxenk.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://picxenk.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://picxenk.github.io/home/contact/</guid>
       <description></description>
     </item>
     

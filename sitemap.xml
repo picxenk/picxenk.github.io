@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://picxenk.github.io/post/lab-for-oo/</loc>
+      <lastmod>2018-07-17T19:08:38+09:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://picxenk.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+09:00</lastmod>
     </url>
     
@@ -14,7 +23,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://picxenk.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+09:00</lastmod>
     </url>
     
@@ -23,7 +32,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://picxenk.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+09:00</lastmod>
     </url>
     
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://picxenk.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -41,7 +50,8 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://picxenk.github.io/tags/oop/</loc>
+      <lastmod>2018-07-17T19:08:38+09:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -50,7 +60,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://picxenk.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -59,7 +69,17 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://picxenk.github.io/tags/</loc>
+      <lastmod>2018-07-17T19:08:38+09:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://picxenk.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+09:00</lastmod>
       <priority>0</priority>
     </url>
