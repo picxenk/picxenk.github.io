@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Metakits</title>
-    <link>https://www.example.com/tags/</link>
+    <link>https://metakits.cc/tags/</link>
     <description>Recent content in Tags on Metakits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://www.example.com/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Fri, 04 Sep 2015 18:16:48 +0900</lastBuildDate>
     
-	<atom:link href="https://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://metakits.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code</title>
-      <link>https://www.example.com/tags/code/</link>
+      <link>https://metakits.cc/tags/code/</link>
       <pubDate>Fri, 04 Sep 2015 18:16:48 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/code/</guid>
+      <guid>https://metakits.cc/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computing</title>
-      <link>https://www.example.com/tags/computing/</link>
+      <link>https://metakits.cc/tags/computing/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/computing/</guid>
+      <guid>https://metakits.cc/tags/computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crc</title>
-      <link>https://www.example.com/tags/crc/</link>
+      <link>https://metakits.cc/tags/crc/</link>
       <pubDate>Tue, 17 Jul 2018 19:08:38 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/crc/</guid>
+      <guid>https://metakits.cc/tags/crc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Literacy</title>
-      <link>https://www.example.com/tags/literacy/</link>
+      <link>https://metakits.cc/tags/literacy/</link>
       <pubDate>Fri, 04 Sep 2015 18:16:48 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/literacy/</guid>
+      <guid>https://metakits.cc/tags/literacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta Media</title>
-      <link>https://www.example.com/tags/meta-media/</link>
+      <link>https://metakits.cc/tags/meta-media/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/meta-media/</guid>
+      <guid>https://metakits.cc/tags/meta-media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oop</title>
-      <link>https://www.example.com/tags/oop/</link>
+      <link>https://metakits.cc/tags/oop/</link>
       <pubDate>Tue, 17 Jul 2018 19:08:38 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/oop/</guid>
+      <guid>https://metakits.cc/tags/oop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pdf</title>
-      <link>https://www.example.com/tags/pdf/</link>
+      <link>https://metakits.cc/tags/pdf/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/pdf/</guid>
+      <guid>https://metakits.cc/tags/pdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Translation</title>
-      <link>https://www.example.com/tags/translation/</link>
+      <link>https://metakits.cc/tags/translation/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
       
-      <guid>https://www.example.com/tags/translation/</guid>
+      <guid>https://metakits.cc/tags/translation/</guid>
       <description></description>
     </item>
     

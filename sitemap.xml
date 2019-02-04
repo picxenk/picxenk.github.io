@@ -3,165 +3,170 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.example.com/projects/1n3-codes/</loc>
+    <loc>https://metakits.cc/projects/1n3-codes/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/pulsebug/</loc>
+    <loc>https://metakits.cc/projects/pulsebug/</loc>
     <lastmod>2016-09-05T17:04:58+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/writings/pc-for-child/</loc>
+    <loc>https://metakits.cc/writings/pc-for-child/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/cv/full/</loc>
+    <loc>https://metakits.cc/cv/full/</loc>
     <lastmod>2018-08-30T17:39:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/teachings/creative-computing/</loc>
+    <loc>https://metakits.cc/teachings/creative-computing/</loc>
     <lastmod>2018-08-27T18:15:44+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/cv/simple/</loc>
+    <loc>https://metakits.cc/teachings/creative-computing-for-all/</loc>
+    <lastmod>2018-08-27T18:15:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/cv/simple/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/writings/lab-for-oo/</loc>
+    <loc>https://metakits.cc/writings/lab-for-oo/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/playground-code/</loc>
+    <loc>https://metakits.cc/projects/playground-code/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/lightball/</loc>
+    <loc>https://metakits.cc/projects/lightball/</loc>
     <lastmod>2016-09-05T17:06:36+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/open-avatar/</loc>
+    <loc>https://metakits.cc/projects/open-avatar/</loc>
     <lastmod>2016-06-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/2langs/</loc>
+    <loc>https://metakits.cc/projects/2langs/</loc>
     <lastmod>2015-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/survival-kit/</loc>
+    <loc>https://metakits.cc/projects/survival-kit/</loc>
     <lastmod>2015-09-05T17:08:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/writings/cultura-code-literacy/</loc>
+    <loc>https://metakits.cc/writings/cultura-code-literacy/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/sadaduino/</loc>
+    <loc>https://metakits.cc/projects/sadaduino/</loc>
     <lastmod>2014-10-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/poempoem/</loc>
+    <loc>https://metakits.cc/projects/poempoem/</loc>
     <lastmod>2013-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/sticky-blocks/</loc>
+    <loc>https://metakits.cc/projects/sticky-blocks/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/code/</loc>
+    <loc>https://metakits.cc/tags/code/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/computing/</loc>
+    <loc>https://metakits.cc/tags/computing/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/crc/</loc>
+    <loc>https://metakits.cc/tags/crc/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/cv/</loc>
+    <loc>https://metakits.cc/cv/</loc>
     <lastmod>2018-08-30T17:39:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/literacy/</loc>
+    <loc>https://metakits.cc/tags/literacy/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/meta-media/</loc>
+    <loc>https://metakits.cc/tags/meta-media/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://metakits.cc/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/oop/</loc>
+    <loc>https://metakits.cc/tags/oop/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/pdf/</loc>
+    <loc>https://metakits.cc/tags/pdf/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/projects/</loc>
+    <loc>https://metakits.cc/projects/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/</loc>
+    <loc>https://metakits.cc/tags/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/teachings/</loc>
+    <loc>https://metakits.cc/teachings/</loc>
     <lastmod>2018-08-27T18:15:44+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/translation/</loc>
+    <loc>https://metakits.cc/tags/translation/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/writings/</loc>
+    <loc>https://metakits.cc/writings/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

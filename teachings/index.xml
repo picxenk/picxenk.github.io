@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Metakits</title>
-    <link>https://www.example.com/teachings/</link>
+    <link>https://metakits.cc/teachings/</link>
     <description>Recent content in Teachings on Metakits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://www.example.com/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
     <lastBuildDate>Mon, 27 Aug 2018 18:15:44 +0900</lastBuildDate>
     
-	<atom:link href="https://www.example.com/teachings/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://metakits.cc/teachings/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creative Computing</title>
-      <link>https://www.example.com/teachings/creative-computing/</link>
+      <link>https://metakits.cc/teachings/creative-computing/</link>
       <pubDate>Mon, 27 Aug 2018 18:15:44 +0900</pubDate>
       
-      <guid>https://www.example.com/teachings/creative-computing/</guid>
+      <guid>https://metakits.cc/teachings/creative-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creative Computing for All (창의적 컴퓨팅 입문)</title>
+      <link>https://metakits.cc/teachings/creative-computing-for-all/</link>
+      <pubDate>Mon, 27 Aug 2018 18:15:44 +0900</pubDate>
+      
+      <guid>https://metakits.cc/teachings/creative-computing-for-all/</guid>
       <description></description>
     </item>
     
