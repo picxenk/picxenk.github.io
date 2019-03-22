@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+    '창작과 표현을 위한 컴퓨팅', '메타미디어로서의 컴퓨팅', '말하기, 쓰기, 그 다음으로의 코딩' 등 과 관련한 워크숍 및 강의를 하고 있습니다.
+    <br/><br/><br/>
+
+    {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
+    {{ range sort .Paginator.Pages }}
+    <article>
+      <div class="subtitle tags is-6 is-pulled-right">
+        {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+        {{ end }}
+      </div>
+
+      <h1 class="subtitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="content">
+        {{ .Description }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ partial "pager" . }}
+{{ partial "footer" . }}
