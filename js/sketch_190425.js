@@ -41,7 +41,7 @@ function midpoint(p, q) {
 
 
 function keyPressed() {
-  background(240);
+  background(255);
   setPoints(N);
 }
 
