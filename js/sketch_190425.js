@@ -8,7 +8,10 @@ let last;
 
 
 function setup() {
-  createCanvas(800, 800);
+  var front = createCanvas(windowWidth, 500);
+  front.parent('p5');
+
+  // createCanvas(800, 800);
 
   setPoints(N);
   last = random(vertexes);
