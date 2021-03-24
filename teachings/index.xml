@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Metakits</title>
@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
-    <lastBuildDate>Tue, 19 Mar 2019 21:08:24 +0900</lastBuildDate>
-    
-	<atom:link href="https://metakits.cc/teachings/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://metakits.cc/teachings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game as a new form</title>
+      <link>https://metakits.cc/teachings/game-as-new-form/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://metakits.cc/teachings/game-as-new-form/</guid>
+      <description>서울예술대학교 디지털아트과 2019년 2학기 수업
+동시대 디지털 세대에게 가장 친숙한 장르 중 하나인 게임(Game)을 새로운 표현의 형식으로 다시 바라보고자 합니다.
+그동안 익숙하게 접해온 오락적인 상업 게임은 잠시 내려놓고, 아트게임(Game)으로 명명되고 있는 문화적/예술적 움직임을 수업의 중심 소재로 다룹니다.
+수업 페이지 : https://metakits.cc/SIA2019ArtGame
+아트게임(Art Game)을 우리 수업의 중심 소재로 두고, 크게 두 가지의 뉴미디어 리터러시를 함양하기 위해 노력합니다.
+ 코드 리터러시 (Code Literacy)  디지털 프로그래밍의 기본 구조를 익힌다. (p5.js 사용) 게임의 구조를 만드는 기술과 지식을 이해한다.</description>
+    </item>
     
     <item>
       <title>Nature of Code</title>

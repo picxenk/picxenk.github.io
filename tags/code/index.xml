@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Metakits</title>
+    <title>code on Metakits</title>
     <link>https://metakits.cc/tags/code/</link>
-    <description>Recent content in Code on Metakits</description>
+    <description>Recent content in code on Metakits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
-    <lastBuildDate>Fri, 04 Sep 2015 18:16:48 +0900</lastBuildDate>
-    
-	<atom:link href="https://metakits.cc/tags/code/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 04 Sep 2015 18:16:48 +0900</lastBuildDate><atom:link href="https://metakits.cc/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>기술(뉴미디어) 리터러시의 문화와 교육</title>
       <link>https://metakits.cc/writings/cultura-code-literacy/</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -13,8 +13,28 @@
   </url>
   
   <url>
+    <loc>https://metakits.cc/teachings/game-as-new-form/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/teachings/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://metakits.cc/teachings/nature-of-code/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/projects/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,6 +45,41 @@
   <url>
     <loc>https://metakits.cc/writings/pc-for-child/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/computing/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/meta-media/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/pdf/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/translation/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/writings/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/cv/</loc>
+    <lastmod>2018-08-30T17:39:20+09:00</lastmod>
   </url>
   
   <url>
@@ -49,6 +104,16 @@
   
   <url>
     <loc>https://metakits.cc/writings/lab-for-oo/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/crc/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/oop/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,6 +163,16 @@
   </url>
   
   <url>
+    <loc>https://metakits.cc/tags/code/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://metakits.cc/tags/literacy/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://metakits.cc/writings/cultura-code-literacy/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -125,90 +200,6 @@
   <url>
     <loc>https://metakits.cc/projects/sticky-blocks/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/code/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/computing/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/crc/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/cv/</loc>
-    <lastmod>2018-08-30T17:39:20+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/literacy/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/meta-media/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/oop/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/pdf/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/translation/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/writings/</loc>
-    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
