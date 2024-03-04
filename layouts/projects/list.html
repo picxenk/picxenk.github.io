@@ -1,0 +1,52 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 content-column">
+    놀이와 사유를 위한 유형 혹은 무형의 키트(KIT) - tangible or intangible KIT for playing and thinking
+    <br/><br/>
+    개인 작업이면서 동시에 워크숍이나 키트로 공유/판매되는 콘텐츠입니다.
+    <br/><br/><br/>
+
+        <div class="grid">
+            <div class="row">
+              {{ range .Pages.ByDate.Reverse }}
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 masonry-item">
+                      <div class="box-masonry">
+                          {{ if and (isset .Params "image") .Params.image }}
+                            <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                                <img src="{{.Site.BaseURL}}{{ .Params.image }}" alt="" class="img-responsive">
+                            </a>
+                          {{ end }}
+                          {{ if eq .Params.showonlyimage true }}
+                          <div class="box-masonry-hover-text-header">
+                          {{ else }}
+                          <div class="box-masonry-text">
+                          {{ end }}
+                              <h3><a href="{{ .Permalink }}">{{ .Title }} ({{ .Params.year }})</a></h3>
+                              <div class="box-masonry-description">
+                                <p>
+                                    {{ if .Description }}
+                                      {{ .Description }}
+                                    {{ else }}
+                                      {{ .Summary }}
+                                    {{ end }}
+                                </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              {{ end }}
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</section>
+{{ partial "footer" . }}
