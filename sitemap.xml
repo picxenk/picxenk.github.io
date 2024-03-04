@@ -1,205 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://metakits.cc/projects/1n3-codes/</loc>
+    <loc>http://localhost:1313/projects/1n3-codes/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/pulsebug/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/pulsebug/</loc>
     <lastmod>2014-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/game-as-new-form/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-04T21:52:46+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tinkerings/</loc>
+    <lastmod>2024-03-04T21:52:46+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/teachings/game-as-new-form/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/teachings/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/nature-of-code/</loc>
+  </url><url>
+    <loc>http://localhost:1313/teachings/nature-of-code/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/things-of-internet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/things-of-internet/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/writings/pc-for-child/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writings/pc-for-child/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/computing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/computing/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/meta-media/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/meta-media/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/pdf/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pdf/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/translation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/translation/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/writings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writings/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/cv/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2018-08-30T17:39:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/cv/full/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/full/</loc>
     <lastmod>2018-08-30T17:39:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/creative-computing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/teachings/creative-computing/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/teachings/creative-computing-for-all/</loc>
+  </url><url>
+    <loc>http://localhost:1313/teachings/creative-computing-for-all/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/cv/simple/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/simple/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/writings/lab-for-oo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writings/lab-for-oo/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/crc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/crc/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/oop/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/coding-playground/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/coding-playground/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/meme-of-games/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/meme-of-games/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/metapixel_camera/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/metapixel_camera/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/warmth/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/warmth/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/open-media-folders/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/open-media-folders/</loc>
     <lastmod>2017-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/moving-thing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/moving-thing/</loc>
     <lastmod>2016-08-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/open-avatar/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/open-avatar/</loc>
     <lastmod>2016-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/number-sound-color/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/number-sound-color/</loc>
     <lastmod>2016-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/2langs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/2langs/</loc>
     <lastmod>2015-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/code/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/tags/literacy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/literacy/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/writings/cultura-code-literacy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/writings/cultura-code-literacy/</loc>
     <lastmod>2018-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/sadaduino/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/sadaduino/</loc>
     <lastmod>2014-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/survival-kit/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/survival-kit/</loc>
     <lastmod>2014-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/poempoem/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/poempoem/</loc>
     <lastmod>2013-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/lightball/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/lightball/</loc>
     <lastmod>2012-08-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://metakits.cc/projects/sticky-blocks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/sticky-blocks/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>
