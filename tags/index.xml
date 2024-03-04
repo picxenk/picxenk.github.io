@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Metakits</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://metakits.cc/tags/</link>
     <description>Recent content in Tags on Metakits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;http://localhost:1313/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
     <lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://metakits.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computing</title>
-      <link>http://localhost:1313/tags/computing/</link>
+      <link>https://metakits.cc/tags/computing/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
-      <guid>http://localhost:1313/tags/computing/</guid>
+      <guid>https://metakits.cc/tags/computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta-Media</title>
-      <link>http://localhost:1313/tags/meta-media/</link>
+      <link>https://metakits.cc/tags/meta-media/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
-      <guid>http://localhost:1313/tags/meta-media/</guid>
+      <guid>https://metakits.cc/tags/meta-media/</guid>
       <description></description>
     </item>
     <item>
       <title>PDF</title>
-      <link>http://localhost:1313/tags/pdf/</link>
+      <link>https://metakits.cc/tags/pdf/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
-      <guid>http://localhost:1313/tags/pdf/</guid>
+      <guid>https://metakits.cc/tags/pdf/</guid>
       <description></description>
     </item>
     <item>
       <title>Translation</title>
-      <link>http://localhost:1313/tags/translation/</link>
+      <link>https://metakits.cc/tags/translation/</link>
       <pubDate>Mon, 03 Sep 2018 00:19:01 +0900</pubDate>
-      <guid>http://localhost:1313/tags/translation/</guid>
+      <guid>https://metakits.cc/tags/translation/</guid>
       <description></description>
     </item>
     <item>
       <title>CRC</title>
-      <link>http://localhost:1313/tags/crc/</link>
+      <link>https://metakits.cc/tags/crc/</link>
       <pubDate>Tue, 17 Jul 2018 19:08:38 +0900</pubDate>
-      <guid>http://localhost:1313/tags/crc/</guid>
+      <guid>https://metakits.cc/tags/crc/</guid>
       <description></description>
     </item>
     <item>
       <title>OOP</title>
-      <link>http://localhost:1313/tags/oop/</link>
+      <link>https://metakits.cc/tags/oop/</link>
       <pubDate>Tue, 17 Jul 2018 19:08:38 +0900</pubDate>
-      <guid>http://localhost:1313/tags/oop/</guid>
+      <guid>https://metakits.cc/tags/oop/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>http://localhost:1313/tags/code/</link>
+      <link>https://metakits.cc/tags/code/</link>
       <pubDate>Fri, 04 Sep 2015 18:16:48 +0900</pubDate>
-      <guid>http://localhost:1313/tags/code/</guid>
+      <guid>https://metakits.cc/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Literacy</title>
-      <link>http://localhost:1313/tags/literacy/</link>
+      <link>https://metakits.cc/tags/literacy/</link>
       <pubDate>Fri, 04 Sep 2015 18:16:48 +0900</pubDate>
-      <guid>http://localhost:1313/tags/literacy/</guid>
+      <guid>https://metakits.cc/tags/literacy/</guid>
       <description></description>
     </item>
   </channel>
