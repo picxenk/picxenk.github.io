@@ -1,2 +1,0 @@
-# MetakitsCC
-metakits.cc
