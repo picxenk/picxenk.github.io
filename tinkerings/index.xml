@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tinkerings on Metakits</title>
+    <link>http://localhost:1313/tinkerings/</link>
+    <description>Recent content in Tinkerings on Metakits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://localhost:1313/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
+    <lastBuildDate>Mon, 04 Mar 2024 21:52:46 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tinkerings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaza</title>
+      <link>http://localhost:1313/tinkerings/gaza/</link>
+      <pubDate>Mon, 04 Mar 2024 21:52:46 +0900</pubDate>
+      <guid>http://localhost:1313/tinkerings/gaza/</guid>
+      <description>가자지구에 대한 어떤 게임&#xA;가자지구</description>
+    </item>
+    <item>
+      <title>Open Avatar</title>
+      <link>http://localhost:1313/tinkerings/open-avatar/</link>
+      <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tinkerings/open-avatar/</guid>
+      <description>이야기의 시작 제가 오랫동안 써오던 아바타 드로잉이 하나 있습니다. 대학생 때 몇 가지 버전의 드로잉이 단순화되어서 아래와 같은 결과물이 되었죠. 둥글둥글한 마음씨를 담은 얼굴, 온화하면서 수줍은듯한 미소, iBook 흰둥이 위의 절제된 손. (iBook 흰둥이가 저의 첫 맥이었어요)&#xA;요새는 다들 본인의 사진이 들어가게 프로필 사진을 넣어서 대세를 따를까 하다가도, 개인적으로 좋아하는 그림이라 그대로 유지하고 있습니다. 그런데 어느날(2016.06) 이 드로잉이 마음에 드셨는지 아바타로 쓰시는 분을 알게 되었습니다. 생각해보니 잊고 있었지만 과거에도 몇 번 있었어요.</description>
+    </item>
+    <item>
+      <title>Sticky Blocks</title>
+      <link>http://localhost:1313/tinkerings/sticky-blocks/</link>
+      <pubDate>Fri, 20 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tinkerings/sticky-blocks/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

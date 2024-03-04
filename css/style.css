@@ -4329,7 +4329,7 @@ a.nav-item.is-tab.is-active {
   align-items: stretch;
   display: flex;
   -ms-flex-preferred-size: 0;
-  flex-basis: 0;
+  flex-basis: 10;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
