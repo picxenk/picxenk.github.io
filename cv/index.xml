@@ -2,26 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs on Metakits</title>
-    <link>http://localhost:1313/cv/</link>
+    <link>https://metakits.cc/cv/</link>
     <description>Recent content in Cvs on Metakits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;http://localhost:1313/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
-    <lastBuildDate>Thu, 30 Aug 2018 17:39:20 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/cv/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Thu, 30 Aug 2018 17:39:20 +0900</lastBuildDate><atom:link href="https://metakits.cc/cv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full</title>
-      <link>http://localhost:1313/cv/full/</link>
+      <link>https://metakits.cc/cv/full/</link>
       <pubDate>Thu, 30 Aug 2018 17:39:20 +0900</pubDate>
-      <guid>http://localhost:1313/cv/full/</guid>
+      
+      <guid>https://metakits.cc/cv/full/</guid>
       <description>CV full </description>
     </item>
+    
     <item>
       <title>CV</title>
-      <link>http://localhost:1313/cv/simple/</link>
+      <link>https://metakits.cc/cv/simple/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/simple/</guid>
-      <description>Metakits(메타키츠)는 김승범의 개인 웹사이트이자, 개인사업자명 입니다.&#xA;General Information name : 김 승 범 (Seungbum Kim) email : picxenk_AT_GMAIL website : http://metakits.cc Works PROTOROOM (http://protoroom.kr), metamedia collective Seoul Institute of the Arts, Adjunct Professor, Dept of Digital Arts HelloGeeks (http://hellogeeks.kr), SW developer CV Seungbum Kim (Korean)</description>
+      
+      <guid>https://metakits.cc/cv/simple/</guid>
+      <description>Metakits(메타키츠)는 김승범의 개인 웹사이트이자, 개인사업자명 입니다.
+General Information  name : 김 승 범 (Seungbum Kim) email : picxenk_AT_GMAIL website : http://metakits.cc  Works  PROTOROOM (http://protoroom.kr), metamedia collective Seoul Institute of the Arts, Adjunct Professor, Dept of Digital Arts HelloGeeks (http://hellogeeks.kr), SW developer   CV_SeungbumKIM.pdf (Korean / 201805)</description>
     </item>
+    
   </channel>
 </rss>
