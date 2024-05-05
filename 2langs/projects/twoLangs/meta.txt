@@ -1,0 +1,170 @@
+eval(readFile('setup_env'))
+
+
+ometa LogoTranslator <: Parser {
+  fromTo :x :y = seq(x) (~seq(y) char)* seq(y),
+  space        = ^space | fromTo(';', '\n'),
+  name         = spaces firstAndRest(`letter, `letterOrDigit):xs -> xs.join(''),
+  cmdName      = name:n
+                   ?(n != 'to') ?(n != 'end') ?(n != 'output')   -> n,
+  number       = spaces digit+:ds                                -> ds.join(''),
+  arg          = ":" name,
+  cmds         = cmd*:xs                                         -> xs.delimWith(';').join(''),
+  block        = "[" cmds:xs "]"                                 -> ('(function() {' + xs + '})'),
+  primExpr     = arg | number | block | "(" (expr | cmd):x ")"   -> x,
+  mulExpr      = mulExpr:x "*" primExpr:y                        -> (x + '*' + y)
+               | mulExpr:x "/" primExpr:y                        -> (x + '/' + y)
+               | primExpr,
+  addExpr      = addExpr:x "+" mulExpr:y                         -> (x + '+' + y)
+               | addExpr:x "-" mulExpr:y                         -> (x + '-' + y)
+               | mulExpr,
+  relExpr      = addExpr:x "<"  addExpr:y                        -> (x + '<'  + y)
+               | addExpr:x "<=" addExpr:y                        -> (x + '<=' + y)
+               | addExpr:x ">"  addExpr:y                        -> (x + '>'  + y)
+               | addExpr:x ">=" addExpr:y                        -> (x + '>=' + y)
+               | addExpr,
+  expr         = relExpr,
+  cmd          = "output" expr:x                                 -> ('return ' + x)
+               | cmdName:n expr*:args                            -> ('_this["' + n + '"].apply(_this, [' +
+                                                                       args.delimWith(',').join('') + '])'),
+  decl         = "to" cmdName:n arg*:args cmds:body  "end"       -> ('_this["' + n + '"]=function(' +
+                                                                       args.delimWith(',').join('') + '){' + body + '}'),
+  topLevelCmd  = decl | cmd,
+  topLevelCmds = topLevelCmd*:xs spaces end                      -> ('(function(){var _this=this;' +
+                                                                       xs.delimWith(',').join('') + '})')
+}
+
+
+Turtle = function() {
+  this.x       = 0
+  this.y       = 0
+  this.angle   = 0
+  this.color   = "black"
+  this.penDown = true
+}
+
+
+Turtle.prototype.goto = function(px, py) {
+	var s = this
+	theScheduler.schedule(function() {
+		s.x = px
+		s.y = py
+	})
+}
+
+
+Turtle.prototype.forwardBy = function(n) {
+	var s = this
+	theScheduler.schedule(function() {
+		myp5.strokeWeight(3)
+		myp5.stroke(255, 69, 69)
+ 		pX = s.x
+  		pY = s.y
+  		s.x += n * Math.cos(s.angle)
+  		s.y += n * Math.sin(s.angle)
+
+  		if (s.penDown) {
+  			myp5.line(pX, pY, s.x, s.y)
+  		}
+	})
+}
+
+
+Turtle.prototype.turnBy = function(n) {
+	var s = this
+	theScheduler.schedule(function() { s.angle += n * Math.PI / 180 })
+}
+
+
+Turtle.prototype.home = function() {
+	var s = this
+	theScheduler.schedule(function() {
+		s.goto(screenWidth/2, screenHeight/2)
+		s.angle = 0
+	})
+
+}
+
+
+Turtle.prototype.clear = function() {
+	theScheduler.schedule(function() {
+		clean()
+	})
+}
+
+Turtle.prototype.지우기 = function() { this.clear()       }
+Turtle.prototype.집으로가기 = function() { this.home()       }
+
+Turtle.prototype.이동하기 = function(px, py) { this.goto(px, py)       }
+Turtle.prototype.rt = function(n) { this.turnBy(n)       }
+Turtle.prototype.turn = function(n) { this.turnBy(n)       }
+Turtle.prototype.돌기 = function(n) { this.turnBy(n)       }
+Turtle.prototype.rightTurn = function(n) { this.turnBy(n)       }
+Turtle.prototype.lt = function(n) { this.turnBy(-n)      }
+Turtle.prototype.fd = function(n) { this.forwardBy(n)    }
+Turtle.prototype.go = function(n) { this.forwardBy(n)    }
+Turtle.prototype.움직이기 = function(n) { this.forwardBy(n)    }
+Turtle.prototype.forward = function(n) { this.forwardBy(n)    }
+Turtle.prototype.bk = function(n) { this.forwardBy(-n)   }
+Turtle.prototype.backward = function(n) { this.forwardBy(-n)   }
+Turtle.prototype.pu = function()  { var s = this; theScheduler.schedule(function() {s.penDown = false}) }
+Turtle.prototype.pd = function()  { var s = this; theScheduler.schedule(function() {s.penDown = true}) }
+Turtle.prototype["if"] = function(cond, block) { if (cond) block() }
+Turtle.prototype["repeat"] = function(times, block) { for (var cnt = 1 ; cnt <= times ; cnt++ ) {block()}}
+Turtle.prototype["반복하기"] = function(times, block) { for (var cnt = 1 ; cnt <= times ; cnt++ ) {block()}}
+Turtle.prototype.px = function(n) { var s = this; theScheduler.schedule(function() {s.x = n}) }
+Turtle.prototype.py = function(n) { var s = this; theScheduler.schedule(function() {s.y = n}) }
+Turtle.prototype.toward = function(n) { var s = this; theScheduler.schedule(function() {s.angle = n * Math.PI / 180}) }
+Turtle.prototype.random = function(n) { return myp5.int(myp5.random(n)) }
+Turtle.prototype.print = function(n) { print(n) }
+
+Turtle.prototype.eval = function(code) { eval(LogoTranslator.matchAll(code, "topLevelCmds")).apply(this) }
+
+smiley = new Turtle()
+smiley.clear()
+smiley.home()
+
+
+setupBlue = function() {
+	myp5.strokeWeight(3)
+	myp5.stroke(69, 196, 255)
+	myp5.noFill()
+}
+
+background =  function(color) {
+	myp5.background(color)
+}
+배경색 = background
+
+point = function(sx, sy) {
+	setupBlue()
+	myp5.point(sx, sy)
+}
+점 = point
+line = function(sx, sy, ex, ey) {
+	setupBlue()
+	myp5.line(sx, sy, ex, ey)
+}
+선 = line
+
+rectangle = function(sx, sy, w, h) {
+	setupBlue()
+	myp5.noFill()
+	myp5.rect(sx, sy, w, h)
+}
+사각형 = rectangle
+
+circle = function(x, y, s) {
+	setupBlue()
+	myp5.ellipse(x, y, s*2, s*2)
+}
+원 = circle
+지우기 = clean
+
+sine = Math.sin
+cosine = Math.cos
+random = myp5.random
+
+
+translateLeftCode = function(code) { return smiley.eval(code) }
+translateRightCode = function(code) { return eval(code)}

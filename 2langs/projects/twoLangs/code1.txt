@@ -1,0 +1,9 @@
+home
+goto 20 20
+
+go 100
+turn 90
+go 100
+turn 90
+go 100
+turn 90

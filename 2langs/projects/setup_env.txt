@@ -1,0 +1,63 @@
+var screenWidth = 0
+var screenHeight = 0
+var bgColor = 255
+var gridUnit = 10
+
+var s = function( p ) {
+  p.setup = function() {
+  	screenWidth = Math.round(p.windowWidth*0.4)
+  	screenHeight = Math.round(p.windowHeight)
+    p.createCanvas(screenWidth, screenHeight).parent('screen')
+    p.noLoop()
+  }
+
+  p.draw = function() {
+  }
+}
+
+myp5 = new p5(s)
+
+
+Scheduler = function() {
+  this.tasks   = []
+  this.timeout = 1
+  this.tick()
+}
+
+Scheduler.prototype.schedule = function(t) { this.tasks.push(t) }
+
+Scheduler.prototype.tick = function() {
+  var s = this
+  if (this.tasks.length > 0)
+    this.tasks.shift()()
+  setTimeout(function() { s.tick() }, this.timeout)
+
+}
+
+theScheduler = new Scheduler()
+theScheduler.schedule(function() {
+	myp5.background(bgColor)
+	myp5.redraw()
+})
+
+
+print = function(text) {
+	theScheduler.schedule(function() {
+		myp5.background(bgColor)
+		myp5.textAlign(myp5.TOP, myp5.LEFT)
+		myp5.textSize(20)
+		myp5.text(text, 10, 10, screenWidth-10, screenHeight-10)
+	})
+}
+
+clean = function() {
+	myp5.background(bgColor)
+	myp5.strokeWeight(1)
+	myp5.stroke(0, 100, 200, 30)
+	for (i=0; i<myp5.displayWidth; i=i+gridUnit) {
+		myp5.line(i, 0, i, myp5.displayHeight)
+	}
+	for (i=0; i<myp5.displayHeight; i=i+gridUnit) {
+		myp5.line(0, i, myp5.displayWidth, i)
+	}
+}

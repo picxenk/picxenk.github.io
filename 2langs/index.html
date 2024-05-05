@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title> 이랑:2Lang </title>
+<!-- ============================  external libraries    ============================ -->
+<script src="ometa/prototype.js"></script>
+<script src="ometa/prototype-fix.js"></script>
+<script src="ometa/lib.js"></script>
+<script src="ometa/ometa-base.js"></script>
+<script src="ometa/parser.js"></script>
+<script src="ometa/bs-js-compiler.js"></script>
+<script src="ometa/bs-ometa-compiler.js"></script>
+<script src="ometa/bs-ometa-optimizer.js"></script>
+<script src="ometa/bs-ometa-js-compiler.js"></script>
+<script src="ometa/bs-project-list-parser.js"></script>
+<script language="javascript" type="text/javascript" src="p5.js"></script>
+<script language="javascript" src="addons/p5.dom.js"></script>
+<!-- <script language="javascript" src="addons/p5.sound.js"></script> -->
+<script src="ometa/wiki.js"></script>
+
+<link rel="stylesheet" href="2lang.css" />
+<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+
+<!-- ============================  playPL initialize    ============================ -->
+<script>
+var canvasColor = '#eeeeee';
+
+
+function toggleVisible(id) {
+	var style = document.getElementById(id).style;
+	style.visibility = style.visibility == "hidden" ? "visible" : "hidden";
+	style.display    = style.display    == "block"  ? "none"    : "block";
+}
+
+
+function initializeThisPage() {
+	loadLanguage('twoLangs');
+}
+
+
+function updateMeta() {
+	if ($('screen').children.length > 0) {
+		$('screen').children[0].remove();
+	}
+
+	var translationError = function(m, i) { alert("Translation error - please tell Alex about this!"); throw fail },
+		tree             = BSOMetaJSParser.matchAll($('workspaceForm').meta_code.value, "topLevel", undefined, function(m, i) { throw fail.delegated({errorPos: i}) });
+
+	eval(BSOMetaJSTranslator.match(tree, "trans", undefined, translationError));
+}
+
+
+function drawLeft() {
+	translateLeftCode($('workspaceForm').source1.value);
+}
+function drawRight() {
+	translateRightCode($('workspaceForm').source2.value);
+}
+
+
+function loadLanguage(language) {
+	$('workspaceForm').meta_code.value = readMetaFile(language);
+	$('workspaceForm').source1.value = readExampleFile(language, 1);
+	$('workspaceForm').source2.value = readExampleFile(language, 2);
+	updateMeta();
+}
+
+</script>
+</head>
+
+<body onLoad="initializeThisPage()">
+
+<!-- ============================  playPL Web Playground    ============================ -->
+<form id="workspaceForm">
+<div id="playground1">
+	<div id="ideLeftHeader"></div>
+    <div id="ideLeftMenu">
+        <input value="Draw" onclick="drawLeft()" type="button">
+    </div>
+    <div id="ideMain">
+        <textarea id="code1" name="source1" class="codespace"></textarea>
+    </div>
+</div>
+
+<div id="playground2">
+	<div id="ideRightHeader"></div>
+    <div id="ideRightMenu">
+        <input value="Draw" onclick="drawRight()" type="button">
+    </div>
+    <div id="ideMain">
+        <textarea id="code2" name="source2" class="codespace"></textarea>
+    </div>
+</div>
+
+<div id="screen">
+</div>
+
+<div id="meta">
+	<div id=translation style="visibility: hidden; display: none;">
+	<textarea cols=132 rows=4 name=translation></textArea>
+	</div>
+	<div id=transcript style="visibility: hidden; display: none;">
+	<textarea cols=132 rows=4 name=transcript></textArea>
+	</div>
+	<div id="metaCodeArea" style="visibility: hidden; display: none;">
+	<textarea cols="80" rows="30" name="meta_code" ></textarea>
+	</div>
+</div>
+</form>
+<div id="footer">
+<a href="https://github.com/picxenk/TwoLangs">TwoLangs</a> by SeungBumKim
+</div>
+
+<br/>
+
+
+</body>
+</html>
