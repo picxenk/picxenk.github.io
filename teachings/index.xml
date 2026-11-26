@@ -4,7 +4,7 @@
     <title>Teachings on Metakits</title>
     <link>https://metakits.cc/teachings/</link>
     <description>Recent content in Teachings on Metakits</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
     <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>https://metakits.cc/teachings/game-as-new-form/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://metakits.cc/teachings/game-as-new-form/</guid>
-      <description>서울예술대학교 디지털아트과 2019년 2학기 &amp;lt;디지털아트 프로그래밍&amp;gt; 수업&#xA;동시대 디지털 세대에게 가장 친숙한 장르 중 하나인 게임(Game)을 새로운 표현의 형식으로 다시 바라보고자 합니다.&#xA;그동안 익숙하게 접해온 오락적인 상업 게임은 잠시 내려놓고, 아트게임(Game)으로 명명되고 있는 문화적/예술적 움직임을 수업의 중심 소재로 다룹니다.&#xA;수업 페이지 : https://metakits.cc/SIA2019ArtGame&#xA;아트게임(Art Game)을 우리 수업의 중심 소재로 두고, 크게 두 가지의 뉴미디어 리터러시를 함양하기 위해 노력합니다.&#xA;코드 리터러시 (Code Literacy) 디지털 프로그래밍의 기본 구조를 익힌다. (p5.js 사용) 게임의 구조를 만드는 기술과 지식을 이해한다.</description>
+      <description>&lt;p&gt;서울예술대학교 디지털아트과 2019년 2학기 &amp;lt;디지털아트 프로그래밍&amp;gt; 수업&lt;/p&gt;&#xA;&lt;p&gt;동시대 디지털 세대에게 가장 친숙한 장르 중 하나인 &lt;strong&gt;게임(Game)을 새로운 표현의 형식&lt;/strong&gt;으로 다시 바라보고자 합니다.&lt;/p&gt;&#xA;&lt;p&gt;그동안 익숙하게 접해온 오락적인 상업 게임은 잠시 내려놓고, 아트게임(Game)으로 명명되고 있는 문화적/예술적 움직임을 수업의 중심 소재로 다룹니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;수업 페이지 :&lt;/strong&gt; &lt;a href=&#34;https://metakits.cc/SIA2019ArtGame&#34;&gt;https://metakits.cc/SIA2019ArtGame&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;아트게임(Art Game)을 우리 수업의 중심 소재로 두고, 크게 두 가지의 뉴미디어 리터러시를 함양하기 위해 노력합니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;코드 리터러시 (Code Literacy)&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;디지털 프로그래밍의 기본 구조를 익힌다. (p5.js 사용)&lt;/li&gt;&#xA;&lt;li&gt;게임의 구조를 만드는 기술과 지식을 이해한다.&lt;/li&gt;&#xA;&lt;li&gt;상호작용을 만드는 구조와 인터페이스를 응용한다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;문화적 리터러시 (Cultural Literacy)&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;새로운 표현 형식으로서의 게임을 이해한다.&lt;/li&gt;&#xA;&lt;li&gt;아트게임의 관점에서 게임의 원리와 구조를 재해석한다.&lt;/li&gt;&#xA;&lt;li&gt;문화적으로 소통 가능한 게임의 가능성을 탐험한다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Nature of Code</title>
       <link>https://metakits.cc/teachings/nature-of-code/</link>
       <pubDate>Tue, 19 Mar 2019 21:08:24 +0900</pubDate>
       <guid>https://metakits.cc/teachings/nature-of-code/</guid>
-      <description>서울예술대학교 디지털아트과 2019년 1학기 전공실습 수업을 위해 p5.js 기반의 Nature of Code 수업을 진행합니다.&#xA;수업 페이지 : https://metakits.cc/SIA2019NoC/&#xA;과거 2번 정도 Nature of Code 수업을 진행해보고, 몇 가지 개선 방법에 대해 고민하게 되었습니다. 기본적으로 이 수업의 목표는 아래와 같습니다.&#xA;p5.js기반으로 자연의 현상을 컴퓨팅으로 모델링하는 방법을 이해하고 구현할 수 있다. 기술매체의 오픈소스 문화를 이해하고 자신의 창작과정에 활용할 수 있다. 빠른 기술 변화 시대에서 스스로 방향을 잡고 학습할 수 있는 ‘배우는 법을 배우기 (Learning to learn)’를 훈련한다.</description>
+      <description>&lt;p&gt;서울예술대학교 디지털아트과 2019년 1학기 전공실습 수업을 위해 p5.js 기반의 Nature of Code 수업을 진행합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;수업 페이지 :&lt;/strong&gt; &lt;a href=&#34;https://metakits.cc/SIA2019NoC/&#34;&gt;https://metakits.cc/SIA2019NoC/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;과거 2번 정도 Nature of Code 수업을 진행해보고, 몇 가지 개선 방법에 대해 고민하게 되었습니다.&#xA;기본적으로 이 수업의 목표는 아래와 같습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;p5.js기반으로 자연의 현상을 컴퓨팅으로 모델링하는 방법을 이해하고 구현할 수 있다.&lt;/li&gt;&#xA;&lt;li&gt;기술매체의 오픈소스 문화를 이해하고 자신의 창작과정에 활용할 수 있다.&lt;/li&gt;&#xA;&lt;li&gt;빠른 기술 변화 시대에서 스스로 방향을 잡고 학습할 수 있는 ‘배우는 법을 배우기 (Learning to learn)’를 훈련한다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Creative Computing</title>
@@ -35,7 +35,7 @@
       <link>https://metakits.cc/teachings/creative-computing-for-all/</link>
       <pubDate>Mon, 27 Aug 2018 18:15:44 +0900</pubDate>
       <guid>https://metakits.cc/teachings/creative-computing-for-all/</guid>
-      <description>2017학년도 1학기부터 현재(2019)까지 서울예술대학교의 예술창작기초학부에서 진행되고 있는 &amp;lt;창의 컴퓨팅 입문&amp;gt; 교양수업&#xA;https://picxenk.gitbooks.io/creativecomputing101/content/ : 이 수업에 대한 배경과 원칙을 정리한 메모 </description>
+      <description>&lt;p&gt;2017학년도 1학기부터 현재(2019)까지 서울예술대학교의 예술창작기초학부에서 진행되고 있는 &amp;lt;창의 컴퓨팅 입문&amp;gt; 교양수업&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://picxenk.gitbooks.io/creativecomputing101/content/&#34;&gt;https://picxenk.gitbooks.io/creativecomputing101/content/&lt;/a&gt; : 이 수업에 대한 배경과 원칙을 정리한 메모&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

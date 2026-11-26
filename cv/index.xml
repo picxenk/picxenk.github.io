@@ -4,7 +4,7 @@
     <title>Cvs on Metakits</title>
     <link>https://metakits.cc/cv/</link>
     <description>Recent content in Cvs on Metakits</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://metakits.cc/cv/simple/&#34;&gt;Metakits&lt;/a&gt; 2024</copyright>
     <lastBuildDate>Thu, 30 Aug 2018 17:39:20 +0900</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>https://metakits.cc/cv/full/</link>
       <pubDate>Thu, 30 Aug 2018 17:39:20 +0900</pubDate>
       <guid>https://metakits.cc/cv/full/</guid>
-      <description>CV full </description>
+      <description>&lt;h1 id=&#34;cv-full&#34;&gt;CV full&lt;/h1&gt;</description>
     </item>
     <item>
       <title>CV</title>
       <link>https://metakits.cc/cv/simple/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://metakits.cc/cv/simple/</guid>
-      <description>Metakits(메타키츠)는 김승범의 개인 웹사이트이자, 개인사업자명 입니다.&#xA;General Information name : 김 승 범 (Seungbum Kim) email : picxenk_AT_GMAIL website : http://metakits.cc Works PROTOROOM (http://protoroom.kr), metamedia collective Seoul Institute of the Arts, Adjunct Professor, Dept of Digital Arts CV Seungbum Kim (Korean)</description>
+      <description>&lt;p&gt;Metakits(메타키츠)는 김승범의 개인 웹사이트이자, 개인사업자명 입니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;general-information&#34;&gt;General Information&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;name : 김 승 범 (Seungbum Kim)&lt;/li&gt;&#xA;&lt;li&gt;email : picxenk_AT_GMAIL&lt;/li&gt;&#xA;&lt;li&gt;website : &lt;a href=&#34;http://metakits.cc&#34;&gt;http://metakits.cc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works&#34;&gt;Works&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PROTOROOM (&lt;a href=&#34;http://protoroom.kr&#34;&gt;http://protoroom.kr&lt;/a&gt;), metamedia collective&lt;/li&gt;&#xA;&lt;li&gt;Seoul Institute of the Arts, Adjunct Professor, Dept of Digital Arts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1tbeVA7tTwhIE2uGsmo7IXzeDJAMrsRqRK4P_JiX-UiU/edit?usp=sharing&#34;&gt;CV Seungbum Kim (Korean)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
